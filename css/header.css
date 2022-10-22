@@ -1,0 +1,60 @@
+#headeryes  {
+    background-color: inherit;
+    margin: 0;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+}
+
+#headeryes a {
+  text-decoration: none;
+  background-color:  hsl(0, 0%, 10%);
+  color: white;
+}
+
+#headeryes h1 {
+  text-decoration: none;
+  background-color:  hsl(0, 0%, 10%);
+  color: white;
+}
+
+#headeryes a, button {
+  transition: all 0.3s ease;
+}
+
+#headeryes header {
+    
+  display: flex;
+  justify-content: center;
+  padding-block: 0.5em;
+}
+
+#headeryes header nav {
+  display: flex;
+  gap: 0.25em;
+  
+  width: 75%;
+  padding: 1em;
+  border-radius: 1em;
+  box-shadow: 0 0 0.8em 0.2em #0009;
+  background-color: hsl(0, 0%, 10%);
+}
+
+#headeryes header nav a {
+  padding: 0.5em;
+  margin-right: 60px;
+  font-size: 1.25rem;
+}
+
+#headeryes header nav a:hover {
+  scale: 1.15;
+  color: #fff9f1;
+}
+
+#headeryes #link {
+    float: right;
+    right: 0;
+
+    position: relative;
+    left: 65%;
+  }
