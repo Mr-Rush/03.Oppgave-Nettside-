@@ -4,13 +4,14 @@
 }
 
 footer {
+    position: static;
+    bottom: 0;
     background: #2c2f33;
     color: #aaa;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    bottom: 0;
     gap: 50px;
     width: 100%; /*width of course */
     height: 60px;   /* Height of the footer */
