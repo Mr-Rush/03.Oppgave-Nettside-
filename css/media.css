@@ -5,7 +5,7 @@
   }
 
 
-#logo {
+#logo { /*Logo box*/
     height: 80%;
     width: 100%;
     display: flex;
@@ -13,16 +13,18 @@
     align-items: center;
 }
 
-#logo a {
+#logo a { /* transition from smaller size to bigger size*/
     transition: transform 0.2s ease;
 }
 
-#logo img{
+#logo img{ /*Image modifications*/ 
     margin: 10px;
     width: 10em;
     height: auto;
 }
 
 #logo a:hover{
-    transform: scale(1.15);
+    filter: hue-rotate(300deg); /* Color change on hover effect*/
+    transform: scale(1.15); /* Changes size of icon on hover*/
 }
+
