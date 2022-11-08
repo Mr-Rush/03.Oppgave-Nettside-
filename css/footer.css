@@ -4,8 +4,9 @@
 }
 
 footer {
-    position: static;
+    position: absolute;
     bottom: 0;
+    width: 100%;
     background: #2c2f33;
     color: #aaa;
     display: flex;
