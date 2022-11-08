@@ -1,15 +1,11 @@
-* {
-  margin: 0;
-  padding: 0;
+.cards{
+  margin-left: 210px;
 }
 
 body {
   display: grid;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
   min-height: 100vh;
-  background: #232427;
 }
 
 body .container {
