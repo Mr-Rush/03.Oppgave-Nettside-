@@ -1,5 +1,6 @@
 .cards{
-  margin-left: 210px;
+  margin-left: 200px; 
+  /* Moves the cards to the center couldnt figure out a different way to do it*/
 }
 
 body {
@@ -29,7 +30,7 @@ body .container .card {
   transition: 0.5s;
 }
 
-body .container .card:nth-child(1) .box .content a {
+body .container .card:nth-child(1) .box .content a { /* Changes color of "Read more" Button each card*/
   background: #2196f3;
 }
 
