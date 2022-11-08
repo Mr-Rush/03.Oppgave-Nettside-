@@ -1,6 +1,7 @@
 .cards{
-  margin-left: 130px; 
-  /* Moves the cards to the center couldnt figure out a different way to do it*/
+  display: flex;
+  margin-left: auto;
+  margin-right: auto; /*Keeps the cards in the middle*/
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 
 body .container {
   display: flex;
-  justify-content: center;
+  place-items: center;
   align-items: center;
   flex-wrap: wrap;
   max-width: 1200px;
