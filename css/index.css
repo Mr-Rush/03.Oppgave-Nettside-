@@ -1,9 +1,16 @@
+:root { /*The gradiant animation code is something I originally used for another website so I pulled it from there and im gonna change it up to fit this website more*/
+    --purple: rgb(123, 78, 143);
+    --violet: rgb(89, 62, 137);
+    --pink: rgb(175, 101, 126);
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
+    overflow: hidden;
     background-color: #202125;
 }
 
@@ -21,4 +28,44 @@ hr {
 
 h2 {
     color: white;
+}
+
+.introduction-title{
+    text-align: center;
+}
+
+.introduction{
+    color: white;
+    font-size: large;
+    text-align: center;
+    max-width: 50%;
+
+}
+
+@keyframes background-pan{
+    from {
+        background-position: 0% center;
+    }
+
+    to {
+        background-position: -200% center;
+    }
+}
+
+h1 {
+    font-family: "Rubik", sans-serif;}
+
+h1 > .magic {
+    animation: background-pan 5s linear infinite;
+    background: linear-gradient(
+        to right, 
+        var(--purple),
+        var(--violet),
+        var(--pink),
+        var(--purple)
+    );
+    background-size: 200%;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    white-space: nowrap; 
 }
