@@ -8,6 +8,8 @@ body {
   display: grid;
   flex-wrap: wrap;
   min-height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 
 body .container {
